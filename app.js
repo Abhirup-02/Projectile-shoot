@@ -154,7 +154,7 @@ function animate() {
         if(particle.alpha <= 0) {
             particles.splice(index, 1)
         } else {
-        particle.update()
+            particle.update()
         }
     })
 
